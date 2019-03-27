@@ -8,9 +8,12 @@ int opcion;
 char seguir='s';
 int numeroA;
 int numeroB;
-int flag1=0;
-int flag2=0;
-
+int suma;
+int resta;
+float division;
+int producto;
+int factorialA;
+int factorialB;
 
     do
     {
@@ -24,13 +27,19 @@ int flag2=0;
                         numeroB=pedirEntero("Ingrese el 2do operando: ");
                         break;
                 case 3:
-                        printf("Calculando\n");
+                        printf("Calculando...\n");
+                        suma=sumarNumeros(numeroA,numeroB);
+                        resta=restarNumeros(numeroA,numeroB);
+                        division=dividirNumeros(numeroA,numeroB);
+                        producto=multiplicarNumeros(numeroA,numeroB);
+                        factorialA=factorial(numeroA);
+                        factorialB=factorial(numeroB);
                         break;
                 case 4:
                         printf("Informando\n");
                         break;
                 case 5:
-                        printf("Saliendo\n");
+                        printf("Saliendo...\n");
                         break;
 
                 default:
