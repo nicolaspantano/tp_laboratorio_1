@@ -36,7 +36,12 @@ int factorialB;
                         factorialB=factorial(numeroB);
                         break;
                 case 4:
-                        printf("Informando\n");
+                        printf("La suma es: %d\n",suma);
+                        printf("La resta es: %d\n",resta);
+                        printf("La division es: %.2f\n",division);
+                        printf("El producto es: %d\n",producto);
+                        printf("El factorial de A es: %d\n",factorialA);
+                        printf("El factorial de B es: %d\n",factorialB);
                         break;
                 case 5:
                         printf("Saliendo...\n");
