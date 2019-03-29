@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Funciones Matematicas.h"
+#include "Funcion pedir numero.h"
 
 int main(){
 
