@@ -85,7 +85,7 @@ int flagNumeroB=0;
                         break;
                 case 5:
                         printf("Saliendo...\n");
-                        break;
+                        return 0;
 
                 default:
                         printf("No ingreso una opcion correcta\n");
@@ -99,8 +99,5 @@ int flagNumeroB=0;
 
     }while(seguir=='s');
 
-
-
-
-    return 0;
+return 0;
 }
