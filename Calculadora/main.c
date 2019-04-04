@@ -82,7 +82,7 @@ int flagNumeroB=0;
                         printf("El producto es: %.2f\n",producto);
                             if(numeroA<0||numeroA!=(int)numeroA)
                             {
-                                printf("No se puede hacer factorial al operando ingresado\n");
+                                printf("No se puede hacer factorial al operando A ingresado\n");
                             }
                             else
                             {
@@ -92,7 +92,7 @@ int flagNumeroB=0;
 
                             if(numeroB<0||numeroB!=(int)numeroB)
                             {
-                                printf("No se puede hacer factorial al operando ingresado\n");
+                                printf("No se puede hacer factorial al operando B ingresado\n");
                             }
                             else
                             {
