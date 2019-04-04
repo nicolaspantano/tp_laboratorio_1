@@ -7,12 +7,12 @@ int main(){
 
 int opcion;
 char seguir='s';
-int numeroA;
-int numeroB;
-int suma;
-int resta;
+float numeroA;
+float numeroB;
+float suma;
+float resta;
 float division;
-int producto;
+float producto;
 int factorialA;
 int factorialB;
 int flagDivision=0;
@@ -27,7 +27,7 @@ int flagNumeroB=0;
             }
             else
             {
-                printf("1.Ingresar 1er operando (A=%d)\n",numeroA);
+                printf("1.Ingresar 1er operando (A=%.2f)\n",numeroA);
             }
 
             if(flagNumeroB==0)
@@ -36,7 +36,7 @@ int flagNumeroB=0;
             }
             else
             {
-                printf("2.Ingrese 2do operando (B=%d)\n",numeroB);
+                printf("2.Ingrese 2do operando (B=%.2f)\n",numeroB);
             }
 
 
@@ -47,11 +47,11 @@ int flagNumeroB=0;
         opcion=pedirEntero("Ingrese una opcion: ");
             switch(opcion)
                 {
-                case 1: numeroA=pedirEntero("Ingrese el 1er operando: ");
+                case 1: numeroA=pedirFloat("Ingrese el 1er operando: ");
                             flagNumeroA=1;
                         break;
                 case 2:
-                        numeroB=pedirEntero("Ingrese el 2do operando: ");
+                        numeroB=pedirFloat("Ingrese el 2do operando: ");
                             if(numeroB==0)
                             {
                                 flagDivision=1;
@@ -68,8 +68,8 @@ int flagNumeroB=0;
                         factorialB=factorial(numeroB);
                         break;
                 case 4:
-                        printf("La suma es: %d\n",suma);
-                        printf("La resta es: %d\n",resta);
+                        printf("La suma es: %.2f\n",suma);
+                        printf("La resta es: %.2f\n",resta);
                             if(flagDivision==1)
                             {
                                 printf("No se puede dividir por 0\n");
@@ -79,9 +79,26 @@ int flagNumeroB=0;
                                 printf("La division es: %.2f\n",division);
                             }
 
-                        printf("El producto es: %d\n",producto);
-                        printf("El factorial de A es: %d\n",factorialA);
-                        printf("El factorial de B es: %d\n",factorialB);
+                        printf("El producto es: %.2f\n",producto);
+                            if(numeroA<0||numeroA!=(int)numeroA)
+                            {
+                                printf("No se puede hacer factorial al operando ingresado\n");
+                            }
+                            else
+                            {
+                                printf("El factorial de A es: %d\n",factorialA);
+                            }
+
+
+                            if(numeroB<0||numeroB!=(int)numeroB)
+                            {
+                                printf("No se puede hacer factorial al operando ingresado\n");
+                            }
+                            else
+                            {
+                                printf("El factorial de B es: %d\n",factorialB);
+                            }
+
                         break;
                 case 5:
                         printf("Saliendo...\n");
@@ -99,5 +116,4 @@ int flagNumeroB=0;
 
     }while(seguir=='s');
 
-return 0;
 }

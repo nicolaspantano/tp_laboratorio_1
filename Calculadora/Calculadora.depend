@@ -8,19 +8,21 @@
 
 1553611449 c:\users\alumno\desktop\tp_laboratorio_1\calculadora\funciones matematicas.h
 
-1553962766 source:c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funciones matematicas.c
+1554341367 source:c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funciones matematicas.c
+	"Funciones Matematicas.h"
 
-1553963425 source:c:\users\compumar\desktop\tp_laboratorio_1\calculadora\main.c
+1554340503 source:c:\users\compumar\desktop\tp_laboratorio_1\calculadora\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Funciones Matematicas.h"
 	"Funcion pedir numero.h"
 
-1553962766 c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funciones matematicas.h
+1554341367 c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funciones matematicas.h
 
-1553962766 source:c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funcion pedir numero.c
+1554340931 source:c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funcion pedir numero.c
+	"Funcion pedir numero.h"
 
-1553962766 c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funcion pedir numero.h
+1554340931 c:\users\compumar\desktop\tp_laboratorio_1\calculadora\funcion pedir numero.h
 
 1553963607 source:c:\users\alumno\desktop\tp_laboratorio_1-master\calculadora\funciones matematicas.c
 

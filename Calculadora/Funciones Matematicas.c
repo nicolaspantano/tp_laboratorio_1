@@ -1,21 +1,23 @@
-int sumarNumeros(int numeroA, int numeroB)
+#include "Funciones Matematicas.h"
+
+float sumarNumeros(float numeroA, float numeroB)
 {
-    int resultado=numeroA+numeroB;
+    float resultado=numeroA+numeroB;
     return resultado;
 }
-int restarNumeros(int numeroA, int numeroB)
+float restarNumeros(float numeroA, float numeroB)
 {
-    int resultado=numeroA-numeroB;
+    float resultado=numeroA-numeroB;
     return resultado;
 }
-float dividirNumeros(int numeroA,int numeroB)
+float dividirNumeros(float numeroA,float numeroB)
 {
-    float resultado=(float)numeroA/numeroB;
+    float resultado=numeroA/numeroB;
     return resultado;
 }
-int multiplicarNumeros(int numeroA,int numeroB)
+float multiplicarNumeros(float numeroA,float numeroB)
 {
-    int resultado=numeroA*numeroB;
+    float resultado=numeroA*numeroB;
     return resultado;
 }
 int factorial(int numero)

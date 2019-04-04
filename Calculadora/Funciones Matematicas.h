@@ -1,35 +1,35 @@
 /** \brief Suma dos numeros
  *
- * \param int un numero
- * \param int otro numero
- * \return int el resultado de la suma
+ * \param float un numero
+ * \param float otro numero
+ * \return float el resultado de la suma
  *
  */
-int sumarNumeros(int, int);
+float sumarNumeros(float, float);
 /** \brief Resta dos numeros
  *
- * \param int un numero
- * \param int otro numero
- * \return int el resultado de la resta
+ * \param float un numero
+ * \param float otro numero
+ * \return float el resultado de la resta
  *
  */
-int restarNumeros(int, int);
+float restarNumeros(float, float);
 /** \brief Divide dos numeros
  *
- * \param int Dividendo
- * \param int Divisor
+ * \param float Dividendo
+ * \param float Divisor
  * \return float el resultado de la division
  *
  */
-float dividirNumeros(int,int);
+float dividirNumeros(float,float);
 /** \brief Multiplica dos numeros
  *
- * \param int un numero
- * \param int otro numero
- * \return int El producto de la multiplicacion
+ * \param float un numero
+ * \param float otro numero
+ * \return float El producto de la multiplicacion
  *
  */
-int multiplicarNumeros(int,int);
+float multiplicarNumeros(float,float);
 /** \brief Saca el factorial de un numero
  *
  * \param int numero al que se le va a sacar el factorial
