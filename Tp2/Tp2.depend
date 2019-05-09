@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1557084215 source:c:\users\compumar\desktop\tp_laboratorio_2\tp2\arrayemployees.c
+	"ArrayEmployees.h"
+	"string.h"
+	"pedirDatos.h"
+
+1557084099 c:\users\compumar\desktop\tp_laboratorio_2\tp2\arrayemployees.h
+	<stdio.h>
+
+1557084099 c:\users\compumar\desktop\tp_laboratorio_2\tp2\pedirdatos.h
+
+1557084215 source:c:\users\compumar\desktop\tp_laboratorio_2\tp2\pedirdatos.c
+	"pedirDatos.h"
+	<stdio.h>
+	<string.h>
+
+1557086171 source:c:\users\compumar\desktop\tp_laboratorio_2\tp2\main.c
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"pedirDatos.h"
+
